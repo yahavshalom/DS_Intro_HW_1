@@ -3,7 +3,7 @@
 
 #QA 1
 def my_func(x1, x2, x3):
-    if type(x1) == str or type(x1) == int or type(x2) == str or type(x2) == int or type(x3) == str or type(x3) == int:
+    if type(x1) != float or type(x2) != float or type(x3) != float:
         return "Error: parameters should be float"
     numerator = ((x1+x2+x3)*(x2+x3)*x3)
     denomi = (x1+x2+x3)
