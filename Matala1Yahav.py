@@ -14,7 +14,7 @@ def my_func(x1, x2, x3):
 
 
 #QA 2 
-#I didn't check if the input is String (not Required)
+#I didn't check if the input is String (not required)
 def convert(hours = 0, minutes = 0):
     if hours < 0 or minutes < 0 :
         return "Input error!"
